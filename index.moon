@@ -339,8 +339,7 @@ Moon.use({
 Moon.run(() => {
 	const data = {
 		todo: "",
-		//todos: Object.keys(flowers)
-		todos: flowers
+		todos: Object.keys(flowers)
 	};
 
 	return {
