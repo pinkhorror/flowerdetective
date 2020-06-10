@@ -292,7 +292,7 @@ function flowerBuilder(result, fields) {
 	result[type].push(fields.slice(1));
 	
 	return result;
-}
+};
 
 const flowers = flowersRaw.split('\n')
 	.map(line => line.trim())
