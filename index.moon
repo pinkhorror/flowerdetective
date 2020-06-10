@@ -286,11 +286,11 @@ function flowerBuilder(result, fields) {
 };
 */
 
-const flowers = flowersRaw.split('\n');
+const flowers = flowersRaw.split('\n')
 	.map(line => line.trim())
 	.filter(line => line.length > 0)
-	.sort()
-	.map(line => line.split('\t'));
+	.sort();
+	//.map(line => line.split('\t'));
 	//.reduce(flowerBuilder, {});
 
 const updateTodo = ({ data, view }) => {
