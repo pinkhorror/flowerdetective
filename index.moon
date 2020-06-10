@@ -1,16 +1,6 @@
 const { div, h1, ul, li, input, button }
 	= Moon.view.m;
 
-const Black = 'Black';
-const Blue = 'Blue';
-const Green = 'Green';
-const Orange = 'Orange';
-const Pink = 'Pink';
-const Purple = 'Purple';
-const Red = 'Red';
-const White = 'White';
-const Yellow = 'Yellow';
-
 const flowersRaw = '
 Rose	0	0	0	0	White	0
 Rose	0	0	0	1	White	0
@@ -296,10 +286,10 @@ function flowerBuilder(result, fields) {
 };
 */
 
-const flowers = flowersRaw.split('\n')
+const flowers = flowersRaw.split('\n');
+	/*
 	.map(line => line.trim())
 	.filter(line => line.length > 0);
-	/*
 	.sort()
 	.map(line => line.split('\t'))
 	.reduce(flowerBuilder, {});
