@@ -274,7 +274,6 @@ Mum	2	2	1	0	Green	0
 Mum	2	2	2	0	Red	0
 `;
 
-/*
 function flowerBuilder(result, fields) {
 	const type = fields[0];
 	if (!(type in result)) {
@@ -284,16 +283,13 @@ function flowerBuilder(result, fields) {
 	
 	return result;
 };
-*/
 
 const flowers = flowersRaw.split('\n');
-	/*
 	.map(line => line.trim())
-	.filter(line => line.length > 0);
+	.filter(line => line.length > 0)
 	.sort()
 	.map(line => line.split('\t'))
 	.reduce(flowerBuilder, {});
-	*/
 
 const updateTodo = ({ data, view }) => {
 	const dataNew = {
