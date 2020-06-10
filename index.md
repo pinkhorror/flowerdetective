@@ -1,4 +1,4 @@
 {% include head.html %}
 # Flower Detective for Animal Crossing New Horizons
 
-<div id="root"/>
+<div id="root"></div>
