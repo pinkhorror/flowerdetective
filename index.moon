@@ -287,9 +287,9 @@ function flowerBuilder(result, fields) {
 const flowers = flowersRaw.split('\n')
 	.map(line => line.trim())
 	.filter(line => line.length > 0)
-	.sort();
-	//.map(line => line.split('\t'));
-	//.reduce(flowerBuilder, {});
+	.sort()
+	.map(line => line.split('\t'))
+	.reduce(flowerBuilder, {});
 
 const updateTodo = ({ data, view }) => {
 	const dataNew = {
@@ -339,7 +339,7 @@ Moon.use({
 Moon.run(() => {
 	const data = {
 		todo: "",
-		todos: flowers //Object.keys(flowers)
+		todos: Object.keys(flowers)
 	};
 
 	return {
