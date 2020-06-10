@@ -1,6 +1,7 @@
 const { div, h1, ul, li, input, button }
 	= Moon.view.m;
 
+/*
 const flowerGenes = {
 Cosmo: [],
 Hyacinth: [],
@@ -11,6 +12,7 @@ Rose: [],
 Tulip: [],
 Windflower: []
 };
+*/
 
 const updateTodo = ({ data, view }) => {
 	const dataNew = {
