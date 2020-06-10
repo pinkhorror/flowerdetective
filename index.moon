@@ -1,7 +1,7 @@
 const { div, h1, ul, li, input, button }
 	= Moon.view.m;
 
-const flowersRaw = '
+const flowersRaw = `
 Rose	0	0	0	0	White	0
 Rose	0	0	0	1	White	0
 Rose	0	0	0	2	White	0
@@ -272,7 +272,7 @@ Mum	2	1	2	0	Red	0
 Mum	2	2	0	0	Green	0
 Mum	2	2	1	0	Green	0
 Mum	2	2	2	0	Red	0
-';
+`;
 
 /*
 function flowerBuilder(result, fields) {
