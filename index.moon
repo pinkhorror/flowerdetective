@@ -282,7 +282,8 @@ Mum	2	1	2	0	Red	0
 Mum	2	2	0	0	Green	0
 Mum	2	2	1	0	Green	0
 Mum	2	2	2	0	Red	0
-'
+';
+
 function flowerBuilder(result, fields) {
 	const type = fields[0];
 	if (!(type in result)) {
