@@ -1,6 +1,17 @@
 const { div, h1, ul, li, input, button }
 	= Moon.view.m;
 
+const flowerGenes = {
+Cosmo: [],
+Hyacinth: [],
+Lily: [],
+Pansy: [],
+Mum: [],
+Rose: [],
+Tulip: [],
+Windflower: []
+};
+
 const updateTodo = ({ data, view }) => {
 	const dataNew = {
 		...data,
@@ -66,11 +77,7 @@ Moon.use({
 Moon.run(() => {
 	const data = {
 		todo: "",
-		todos: [
-			"Learn Moon",
-			"Take a nap",
-			"Go shopping"
-		]
+		todos: Objects.keys(flowerGenes)
 	};
 
 	return {
