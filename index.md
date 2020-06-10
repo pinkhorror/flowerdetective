@@ -1,2 +1,4 @@
 {% include head.html %}
-# hello world
+# Flower Detective for Animal Crossing New Horizons
+
+<div id="root"/>
