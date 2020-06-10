@@ -298,7 +298,7 @@ const flowers = flowersRaw.split('\n')
 	.map(line => line.trim())
 	.filter(line => line.length > 0)
 	.sort()
-	.map(line => line.split('\t')
+	.map(line => line.split('\t'))
 	.reduce(flowerBuilder, {});
 
 const updateTodo = ({ data, view }) => {
